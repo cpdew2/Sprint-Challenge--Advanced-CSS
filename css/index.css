@@ -154,20 +154,33 @@ h3 {
 p {
   font-size: 1.6rem;
   line-height: 1.4;
+  color: #5E6164;
 }
 .container {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
 }
-nav {
+div nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 800px;
   width: 100%;
+  margin: 0 auto;
   padding: 25px 25px 25px 25px;
   font-size: 16px;
+  color: #454A59;
+  background-color: #F6F6F6;
+  border: #F1F1F1;
   justify-content: space-evenly;
+}
+h1 {
+  background-color: #F6F6F6;
+  border: #F1F1F1;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
 }
 footer {
   color: #22283B;
@@ -183,6 +196,10 @@ h1 {
   display: flex;
   justify-content: center;
   font-size: 35px;
+  color: #23293B;
+}
+.home .intro .main {
+  border-radius: 20px;
 }
 .home .intro h2 {
   padding: 15px;
@@ -231,23 +248,25 @@ h1 {
   justify-content: center;
   align-items: center;
   border: solid black 1px;
-  background-color: black;
-  width: 65px;
+  background-color: #22283A;
+  border-radius: 10px;
+  font-size: 12px;
+  width: 75px;
   height: 25px;
-  color: white;
+  color: #F6F7F8;
 }
 .home .walk .walk-text .btn:hover {
   display: flex;
   justify-content: center;
   align-items: center;
   border: solid black 1px;
-  background-color: coral;
+  background-color: gray;
   width: 65px;
   height: 25px;
   color: black;
 }
 .home .walk .walk-img {
-  width: 46%;
+  width: 56%;
   margin-left: 4%;
 }
 .home .walk .walk-img img {
@@ -262,7 +281,29 @@ h1 {
   .sky {
     display: none;
   }
-  .sky .launch {
+  .launch {
     display: none;
+  }
+  .blast {
+    display: flex;
+    margin: 20%;
+  }
+  .walk {
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding-bottom: 3%;
+    width: 160%;
+  }
+  .walk-text {
+    width: 350px;
+  }
+  .walk-text .walk-img {
+    width: 56%;
+    margin-left: 4%;
+  }
+  .walk-text .walk-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
   }
 }
